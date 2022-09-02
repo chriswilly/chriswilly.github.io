@@ -151,12 +151,12 @@ pre {
 }
 
 .imageWrapperMid {
-    width:40%;
+    width:20%;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperMid img {
     display:inline-block;
-    width:40%;
+    width:20%;
     margin:0 auto;
 }

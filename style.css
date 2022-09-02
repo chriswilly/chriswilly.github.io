@@ -1,115 +1,115 @@
 /* attributed to https://datatracker.ietf.org/doc/html/draft-mealling-uuid-urn-05 */
 
-      @media only screen
-      and (min-width: 992px)
-      and (max-width: 1199px) {
-          body { font-size: 14pt; }
-          div.content { width: 96ex; margin: 0 auto; }
-      }
-      @media only screen
-      and (min-width: 768px)
-      and (max-width: 991px) {
-          body { font-size: 14pt; }
-          div.content { width: 96ex; margin: 0 auto; }
-      }
-      @media only screen
-      and (min-width: 480px)
-      and (max-width: 767px) {
-          body { font-size: 11pt; }
-          div.content { width: 96ex; margin: 0 auto; }
-      }
-      @media only screen
-      and (max-width: 479px) {
-          body { font-size: 8pt; }
-          div.content { width: 96ex; margin: 0 auto; }
-      }
-      @media only screen
-      and (min-width : 375px)
-      and (max-width : 667px) {
-          body { font-size: 9.5pt; }
-          div.content { width: 96ex; margin: 0; }
-      }
-      @media only screen
-      and (min-width: 1200px) {
-          body { font-size: 10pt; margin: 0 4em; }
-          div.content { width: 96ex; margin: 0; }
-      }
-      h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-          font-weight: bold;
-          /* line-height: 0pt; */
-          display: inline;
-          white-space: pre;
-          font-family: monospace;
-          font-size: 1em;
-          font-weight: bold;
-      }
-      pre {
-          font-size: 1em;
-          margin-top: 0px;
-          margin-bottom: 0px;
-      }
-      .pre {
-          white-space: pre;
-          font-family: monospace;
-      }
-      .header{
-          font-weight: bold;
-      }
-      .newpage {
-          page-break-before: always;
-      }
-      .invisible {
-          text-decoration: none;
-          color: white;
-      }
-      @media print {
-          body {
-              margin-top: 5em;
-              font-family: monospace;
-              font-size: 10.5pt;
-          }
-          h1, h2, h3, h4, h5, h6 {
-              font-size: 1em;
-          }
+@media only screen
+and (min-width: 992px)
+and (max-width: 1199px) {
+    body { font-size: 14pt; }
+    div.content { width: 96ex; margin: 0 auto; }
+}
+@media only screen
+and (min-width: 768px)
+and (max-width: 991px) {
+    body { font-size: 14pt; }
+    div.content { width: 96ex; margin: 0 auto; }
+}
+@media only screen
+and (min-width: 480px)
+and (max-width: 767px) {
+    body { font-size: 11pt; }
+    div.content { width: 96ex; margin: 0 auto; }
+}
+@media only screen
+and (max-width: 479px) {
+    body { font-size: 8pt; }
+    div.content { width: 96ex; margin: 0 auto; }
+}
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px) {
+    body { font-size: 9.5pt; }
+    div.content { width: 96ex; margin: 0; }
+}
+@media only screen
+and (min-width: 1200px) {
+    body { font-size: 10pt; margin: 0 4em; }
+    div.content { width: 96ex; margin: 0; }
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+    /* line-height: 0pt; */
+    display: inline;
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+pre {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.pre {
+    white-space: pre;
+    font-family: monospace;
+}
+.header{
+    font-weight: bold;
+}
+.newpage {
+    page-break-before: always;
+}
+.invisible {
+    text-decoration: none;
+    color: white;
+}
+@media print {
+    body {
+        margin-top: 5em;
+        font-family: monospace;
+        font-size: 10.5pt;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1em;
+    }
 
-          a:link, a:visited {
-              color: inherit;
-              text-decoration: none;
-          }
-          .noprint {
-              display: none;
-          }
-      }
-      @media screen {
-          .grey, .grey a:link, .grey a:visited {
-              color: #777;
-          }
-          .meta-info {
-              background-color: #EEE;
-              width: 96ex;
-          }
-          .top {
-              border-top: 7px solid #EEE;
-          }
-          .pad {
-              padding-top: 7px;
-              line-height: 24px;
-              padding-bottom: 4px;
-          }
-          .bgwhite  { background-color: white; }
-          .bgred    { background-color: #F44; }
-          .bggrey   { background-color: #666; }
-          .bgbrown  { background-color: #840; }
-          .bgorange { background-color: #FA0; }
-          .bgyellow { background-color: #EE0; }
-          .bgmagenta{ background-color: #F4F; }
-          .bgblue   { background-color: #66F; }
-          .bgcyan   { background-color: #4DD; }
-          .bggreen  { background-color: #4F4; }
+    a:link, a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+    .noprint {
+        display: none;
+    }
+}
+@media screen {
+    .grey, .grey a:link, .grey a:visited {
+        color: #777;
+    }
+    .meta-info {
+        background-color: #EEE;
+        width: 96ex;
+    }
+    .top {
+        border-top: 7px solid #EEE;
+    }
+    .pad {
+        padding-top: 7px;
+        line-height: 24px;
+        padding-bottom: 4px;
+    }
+    .bgwhite  { background-color: white; }
+    .bgred    { background-color: #F44; }
+    .bggrey   { background-color: #666; }
+    .bgbrown  { background-color: #840; }
+    .bgorange { background-color: #FA0; }
+    .bgyellow { background-color: #EE0; }
+    .bgmagenta{ background-color: #F4F; }
+    .bgblue   { background-color: #66F; }
+    .bgcyan   { background-color: #4DD; }
+    .bggreen  { background-color: #4F4; }
 
-          .legend   { font-size: 90%; }
-          .cplate   { font-size: 70%; border: solid grey 1px; }
-      }
+    .legend   { font-size: 90%; }
+    .cplate   { font-size: 70%; border: solid grey 1px; }
+}
 
       
 .bgwhite  { background-color: white; }
@@ -125,24 +125,38 @@
 .draftcontent { margin-top:1em;}
 
 
-/*
-h1 {
-  color: gray;
+
+/* attributed to https://stackoverflow.com/a/19759941/9660613 */
+.imageWrapperWide {
+    width:100%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+.imageWrapperWide img {
+    display:inline-block;
+    width:100%;
+    margin:0 auto;
 }
 
-p {
-  color: black;
+.imageWrapperHi {
+    height:99%;
+    width:100%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+.imageWrapperHi img {
+    display:inline-block;
+    height:100%;
+    margin:0 auto;
 }
 
-a:link {
-  color: blue;
+.imageWrapperMid {
+    width:40%;
+    text-align:center;
+    page-break-inside:avoid;
 }
-
-a:visited {
-  color: purple;
+.imageWrapperMid img {
+    display:inline-block;
+    width:40%;
+    margin:0 auto;
 }
-
-a:hover {
-  text-decoration: strong;
-}
-*/

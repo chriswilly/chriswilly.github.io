@@ -74,7 +74,7 @@ pre {
     }
 
     a:link, a:visited {
-        color: inherit;
+        color: #def7fe;
         text-decoration: none;
     }
     .noprint {

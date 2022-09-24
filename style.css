@@ -84,7 +84,7 @@ pre {
 
 @media screen {
     .grey, .grey a:link, .grey a:visited {
-        color: #777;
+        color: #def7fe;
     }
     .meta-info {
         background-color: #EEE;

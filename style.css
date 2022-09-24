@@ -3,13 +3,13 @@
 @media only screen
 and (min-width: 992px)
 and (max-width: 1199px) {
-    body { font-size: 17pt; }
+    body { font-size: 15pt; }
     div.content { width: 96ex; margin: 0 auto; }
 }
 @media only screen
 and (min-width: 768px)
 and (max-width: 991px) {
-    body { font-size: 17pt; }
+    body { font-size: 15pt; }
     div.content { width: 96ex; margin: 0 auto; }
 }
 @media only screen
@@ -31,7 +31,7 @@ and (max-width : 667px) {
 }
 @media only screen
 and (min-width: 1200px) {
-    body { font-size: 12pt; margin: 0 4em; }
+    body { font-size: 17pt; margin: 0 4em; }
     div.content { width: 96ex; margin: 0; }
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -40,11 +40,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: inline;
     white-space: pre;
     font-family: monospace;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
 }
 pre {
-    font-size: 1em;
+    font-size: 0.5em;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -70,7 +70,7 @@ pre {
         font-size: 12pt;
     }
     h1, h2, h3, h4, h5, h6 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     a:link, a:visited {
@@ -98,6 +98,7 @@ pre {
         line-height: 24px;
         padding-bottom: 4px;
     }
+/*    
     .bgwhite  { background-color: white; }
     .bgred    { background-color: #F44; }
     .bggrey   { background-color: #666; }
@@ -108,12 +109,13 @@ pre {
     .bgblue   { background-color: #66F; }
     .bgcyan   { background-color: #4DD; }
     .bggreen  { background-color: #4F4; }
-
+*/
     .legend   { font-size: 90%; }
     .cplate   { font-size: 70%; border: solid grey 1px; }
 }
 
       
+/*
 .bgwhite  { background-color: white; }
 .bgred    { background-color: #F44; }
 .bggrey   { background-color: #666; }
@@ -124,18 +126,19 @@ pre {
 .bgblue   { background-color: #66F; }
 .bgcyan   { background-color: #4DD; }
 .bggreen  { background-color: #4F4; }
+*/
 .draftcontent { margin-top:1em;}
 
 /* https://css-tricks.com/dark-modes-with-css/ */
 body {
-  background-color: black;
-  color: white;
+  background-color: #222222;
+  color: #fdffef;
 }
 
 @media screen and (prefers-color-scheme: light) {
   body {
-    background-color: white;
-    color: black;
+    background-color: #fdffef;
+    color: #222222;
   }
 }
 

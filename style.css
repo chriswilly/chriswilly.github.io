@@ -98,6 +98,8 @@ pre {
         line-height: 24px;
         padding-bottom: 4px;
     }
+    .legend   { font-size: 90%; }
+    .cplate   { font-size: 70%; border: solid grey 1px; }
 /*    
     .bgwhite  { background-color: white; }
     .bgred    { background-color: #F44; }
@@ -110,8 +112,6 @@ pre {
     .bgcyan   { background-color: #4DD; }
     .bggreen  { background-color: #4F4; }
 */
-    .legend   { font-size: 90%; }
-    .cplate   { font-size: 70%; border: solid grey 1px; }
 }
 
       

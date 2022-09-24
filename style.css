@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: bold;
     /* line-height: 0pt; */
     display: inline;
-    white-space: pre;
+    /* white-space: pre; */
     font-family: monospace;
     font-size: 2em;
     font-weight: bold;
@@ -65,7 +65,7 @@ pre {
 
 @media print {
     body {
-        margin-top: 5em;
+        margin-top: 3em;
         font-family: monospace;
         font-size: 12pt;
     }
@@ -113,21 +113,8 @@ pre {
     .bggreen  { background-color: #4F4; }
 */
 }
-
-      
-/*
-.bgwhite  { background-color: white; }
-.bgred    { background-color: #F44; }
-.bggrey   { background-color: #666; }
-.bgbrown  { background-color: #840; }
-.bgorange { background-color: #FA0; }
-.bgyellow { background-color: #EE0; }
-.bgmagenta{ background-color: #F4F; }
-.bgblue   { background-color: #66F; }
-.bgcyan   { background-color: #4DD; }
-.bggreen  { background-color: #4F4; }
-*/
 .draftcontent { margin-top:1em;}
+
 
 /* https://css-tricks.com/dark-modes-with-css/ */
 body {

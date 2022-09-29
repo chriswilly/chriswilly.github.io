@@ -118,8 +118,13 @@ pre {
 
 /* https://css-tricks.com/dark-modes-with-css/ */
 body {
-  background-color: #222222;
-  color: #fdffef;
+    background-color: #222222;
+    color: #fdffef;
+
+}
+a:link, a:visited {
+    color: #def7fe;
+    text-decoration: none;
 }
 
 @media screen and (prefers-color-scheme: light) {

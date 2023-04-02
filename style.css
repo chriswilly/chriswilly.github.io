@@ -1,3 +1,7 @@
+/*
+... take css from useful plain text sites ...
+*/
+
 /* attributed to https://datatracker.ietf.org/doc/html/draft-mealling-uuid-urn-05 */
 
 @media only screen
@@ -34,14 +38,21 @@ and (min-width: 1200px) {
     body { font-size: 17pt; margin: 0 4em; }
     div.content { width: 96ex; margin: 0; }
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h4, h5, h6, .h4, .h5, .h6 {
     font-weight: bold;
     /* line-height: 0pt; */
     display: inline;
     /* white-space: pre; */
     font-family: monospace;
     font-size: 2em;
-    font-weight: bold;
+}
+h1, h2, h3, .h1, .h2, .h3, {
+    font-weight: light;
+    /* line-height: 0pt; */
+    display: inline;
+    /* white-space: pre; */
+    font-family: monospace;
+    font-size: 1em;
 }
 pre {
     font-size: 0.5em;

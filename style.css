@@ -189,7 +189,7 @@ a:link, a:visited {
 
 .imageWrapperLogo {
     width:22%;
-    text-align:justify;
+/*    text-align:justify;*/
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {

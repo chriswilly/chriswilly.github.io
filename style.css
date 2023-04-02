@@ -47,12 +47,12 @@ h4, h5, h6, .h4, .h5, .h6 {
     font-size: 2em;
 }
 h1, h2, h3, .h1, .h2, .h3, {
-    font-weight: light;
-    /* line-height: 0pt; */
+/*    font-weight: bold;*/
+/*     line-height: 0pt; */
     display: inline;
-    /* white-space: pre; */
+    white-space: pre;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 0.6em;
 }
 pre {
     font-size: 0.5em;

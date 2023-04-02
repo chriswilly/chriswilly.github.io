@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: bold;
     /* line-height: 0pt; */
     display: inline;
-    /* white-space: pre; */
     font-family: monospace;
     font-size: 2em;
 }
@@ -52,7 +51,7 @@ h3, .h3 {
     display: inline;
     white-space: pre;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 pre {
     font-size: 0.5em;
@@ -178,5 +177,16 @@ a:link, a:visited {
 .imageWrapperMid img {
     display:inline-block;
     width:42%;
+    margin:0 auto;
+}
+
+.imageWrapperLogo {
+    width:13%;
+    text-align:justify;
+    page-break-inside:avoid;
+}
+.imageWrapperLogo img {
+    display:inline-block;
+    width:13%;
     margin:0 auto;
 }

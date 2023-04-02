@@ -93,6 +93,12 @@ pre {
 }
 
 @media screen {
+    body {
+/*        margin-top: 3em;*/
+        font-family: monospace;
+/*        font-size: 12pt;*/
+    }
+
     .grey, .grey a:link, .grey a:visited {
         color: #def7fe;
     }
@@ -181,12 +187,12 @@ a:link, a:visited {
 }
 
 .imageWrapperLogo {
-    width:25%;
+    width:22%;
     text-align:justify;
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {
     display:inline-block;
-    width:25%;
+    width:22%;
     margin:0 auto;
 }

@@ -1,3 +1,5 @@
+/*I used the auto generated markdown from sublime text Markdown Preview https://packagecontrol.io/packages/MarkdownPreview thank you*/
+
 body {
   max-width: 980px;
   margin: 16px auto;
@@ -17,7 +19,7 @@ body .markdown-body
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: #333333;
+  color: #fdffef; /*  #333333;*/
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
   font-size: 16px;

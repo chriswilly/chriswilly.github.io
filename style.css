@@ -188,12 +188,12 @@ a:link, a:visited {
 }
 
 .imageWrapperLogo {
-    width:30%;
+    width:40%;
 /*    text-align:justify;*/
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {
     display:inline-block;
-    width:30%;
+    width:40%;
     margin:0 auto;
 }

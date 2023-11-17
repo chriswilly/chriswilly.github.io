@@ -188,7 +188,7 @@ a:link, a:visited {
 }
 
 .imageWrapperLogo {
-    width:40%;
+    width:33%;
 /*    text-align:justify;*/
     page-break-inside:avoid;
 }

@@ -177,13 +177,13 @@ a:link, a:visited {
 }
 
 .imageWrapperMid {
-    width:70%;
+    width:33%;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperMid img {
     display:inline-block;
-    width:70%;
+    width:33%;
     margin:0 auto;
 }
 

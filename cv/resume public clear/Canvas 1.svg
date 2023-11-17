@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="30.5 4.645882 535.1965 723.3541" width="535.1965" height="723.3541">
+  <defs/>
+  <g id="Canvas_1" stroke="none" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_184">
+        <title>Section A</title>
+        <path d="M 38 5.145882 L 218 5.145882 C 221.866 5.145882 225 8.279889 225 12.145882 L 225 79.85412 C 225 83.72011 221.866 86.85412 218 86.85412 L 38 86.85412 C 34.134007 86.85412 31 83.72011 31 79.85412 L 31 12.145882 C 31 8.279889 34.134007 5.145882 38 5.145882 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_190">
+        <text transform="translate(48 22)" fill="black">
+          <tspan font-family="Century Gothic" font-weight="bold" font-size="20" fill="black" x="0" y="20">Michael Willy</tspan>
+          <tspan font-family="Century Gothic" font-size="20" fill="black" x="0" y="44">michaelwilly.com</tspan>
+        </text>
+      </g>
+      <g id="Graphic_199">
+        <rect x="31" y="88" width="534.6965" height="640" id="path"/>
+        <clipPath id="clip_path">
+          <use xl:href="#path"/>
+        </clipPath>
+        <g clip-path="url(#clip_path)">
+          <image xl:href="image10.pdf" width="523" height="626" transform="translate(31 88) scale(1.0223642)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -22,7 +22,7 @@ body .markdown-body
   color: #fdffef; /*  #333333;*/
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   word-wrap: break-word;
 }
@@ -287,7 +287,7 @@ body .markdown-body
 .markdown-body pre,
 .markdown-body samp {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .markdown-body pre {
@@ -306,7 +306,7 @@ body .markdown-body
   color: #000;
   padding: 3px 5px;
   line-height: 10px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font: 16px Consolas, "Liberation Mono", Menlo, Courier, monospace;
   display: inline-block;
 }
 

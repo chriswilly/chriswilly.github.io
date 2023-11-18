@@ -176,6 +176,19 @@ a:link, a:visited {
     margin:0 auto;
 }
 
+.imageWrapperSemiWide {
+    width:80%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+.imageWrapperSemiWide img {
+    display:inline-block;
+    width:80%;
+    margin:0 auto;
+}
+
+
+
 .imageWrapperMid {
     width:33%;
     text-align:center;

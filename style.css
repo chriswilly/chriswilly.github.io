@@ -167,13 +167,13 @@ a:link, a:visited {
 }
 
 .imageWrapperSemiWide {
-    width:45%;
+    width:66%;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperSemiWide img {
     display:inline-block;
-    width:45%;
+    width:66%;
     margin:0 auto;
 }
 

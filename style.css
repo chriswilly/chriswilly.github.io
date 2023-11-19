@@ -210,12 +210,12 @@ a:link, a:visited {
     margin:0 auto;
 }
 
-.imageWrapperLogo {
+.imageWrapperLogoWide {
     width:36%;
 /*    text-align:justify;*/
     page-break-inside:avoid;
 }
-.imageWrapperLogo img {
+.imageWrapperLogoWide img {
     display:inline-block;
     width:36%;
     margin:0 auto;

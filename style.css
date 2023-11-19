@@ -153,16 +153,6 @@ a:link, a:visited {
 
 
 /* attributed to https://stackoverflow.com/a/19759941/9660613 */
-.imageWrapperWide {
-    width:100%;
-    text-align:center;
-    page-break-inside:avoid;
-}
-.imageWrapperWide img {
-    display:inline-block;
-    width:100%;
-    margin:0 auto;
-}
 
 .imageWrapperHi {
     height:99%;
@@ -177,17 +167,26 @@ a:link, a:visited {
 }
 
 .imageWrapperSemiWide {
-    width:80%;
+    width:45%;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperSemiWide img {
     display:inline-block;
-    width:80%;
+    width:45%;
     margin:0 auto;
 }
 
-
+.imageWrapperWide {
+    width:92%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+.imageWrapperWide img {
+    display:inline-block;
+    width:92%;
+    margin:0 auto;
+}
 
 .imageWrapperMid {
     width:33%;
@@ -201,12 +200,12 @@ a:link, a:visited {
 }
 
 .imageWrapperLogo {
-    width:33%;
+    width:25%;
 /*    text-align:justify;*/
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {
     display:inline-block;
-    width:33%;
+    width:25%;
     margin:0 auto;
 }

@@ -286,7 +286,7 @@ body .markdown-body
 .markdown-body pre,
 .markdown-body samp {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .markdown-body pre {

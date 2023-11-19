@@ -8,7 +8,7 @@
 
     <title>&lt;mcw&gt;</title>
     <link rel="stylesheet" type="text/css" href="/style.css">
-    <link rel="alternate stylesheet" type="text/css" href="/markdown_style.css">
+    <!-- <link rel="alternate stylesheet" type="text/css" href="/markdown_style.css"> -->
     <link rel="icon" href="data:,">
   </head>
   <body>
@@ -20,99 +20,11 @@
 
     <!-- <a href='/cv/resume%20public.svg'><div class='imageWrapperLogo'><h2>SVG Resume</h2><img src='/cv/resume%20public.svg' alt='svg resume' title='michael willy resume'></div></a> -->
 
+    <!-- <a href='/'><h1>&#8594;</h1><h3>LaTex Resume</h3></a> -->
 
-
-    <p>
-        This is a template to write this resume in Latex. The section directory has different \begin{enumerate} & \begin{itemize} list files.
-    </p>
-
+    <a href='/cv/laxtex'><div class='imageWrapperWide'><h3>LaTex resume</h3><h1>&#8594;</h1><br><img src='/img/company logos/LaTeX_logo.svg' alt='latex logo' title='latex'></div></a>
 
     <br><br>
-
-    <article class="markdown-body"><pre><code>
-
-    % template.pub.tex
-
-    \documentclass[11pt]{amsart}
-    %% Letter size paper with margins
-    \usepackage[letterpaper, margin=0.5in]{geometry}
-    \usepackage[T1]{fontenc}
-    \usepackage{enumerate}
-    \usepackage{hyperref}
-
-
-    \date{\today}
-
-    \title{\Author, \Job}
-
-    \author{
-        \lowercase{\href{https://\PersonalSite}{\PersonalSite}}
-        | \lowercase{\href{https://www.\Linkedin}{\Linkedin}}
-        | \lowercase{\href{https://\Github}{\Github}}
-    }
-
-    \address{
-        \lowercase{\href{https://\PersonalSite}{\PersonalSite}}
-        | \lowercase{\href{https://www.\Linkedin}{\Linkedin}}
-        | \lowercase{\href{https://\Github}{\Github}}
-    }
-
-
-
-    %% main.pub.tex
-
-    \input{template.pub}
-    % template.tex has a formatted title with parameters:
-
-    \newcommand{\Author}{Michael Willy}
-    \newcommand{\Job}{Data Engineer}
-    \newcommand{\PersonalSite}{michaelwilly.com}
-    \newcommand{\Linkedin}{linkedin.com/in/michaelwilly/}
-    \newcommand{\Github}{github.com/chriswilly}
-
-    \begin{document}
-
-    \newcommand{\ResearchChemicalCompany}{Research Chemical Company}
-    \newcommand{\SemiconductorManufacturingCompany}{Semiconductor Manufacturing Company}
-
-    \maketitle
-
-    \input{./section/intro}
-
-    \section*{Tools}\label{sec:skills}
-        \begin{center}
-            \input{./section/skills}
-        \end{center}
-
-    \section*{Experience}\label{sec:jobs}
-        \input{./section/experience_public}
-
-    \section*{Work Projects}\label{sec:projects}
-        \input{./section/projects}
-
-    \section*{Education}\label{sec:school}
-        \input{./section/education}
-
-    \end{document}
-
-
-
-    %% section/intro.tex
-
-    \begin{itemize}\itemsep0.2em
-
-        \item Develops models with Python \& SQL
-
-        \item Automates models on high-dimensional data
-
-        \item Experience developing xyz data platforms
-
-    \end{itemize}
-
-
-    </code></pre></article>
-
-
 
     <nav>
         <h3>
@@ -120,6 +32,8 @@
             <a href="/">home</a>
             &#8226;
             <a href="/cv">resume</a>
+            &#8226;
+            <a href="/latex">latex resume</a>
 <!--
             &#8226;
             <a href="/notes">notes</a>

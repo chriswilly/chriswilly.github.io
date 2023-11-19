@@ -167,13 +167,13 @@ a:link, a:visited {
 }
 
 .imageWrapperSemiWide {
-    width:66%;
+    width:58%;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperSemiWide img {
     display:inline-block;
-    width:66%;
+    width:58%;
     margin:0 auto;
 }
 
@@ -200,12 +200,12 @@ a:link, a:visited {
 }
 
 .imageWrapperLogo {
-    width:25%;
+    width:24%;
 /*    text-align:justify;*/
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {
     display:inline-block;
-    width:25%;
+    width:24%;
     margin:0 auto;
 }

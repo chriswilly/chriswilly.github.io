@@ -209,3 +209,14 @@ a:link, a:visited {
     width:24%;
     margin:0 auto;
 }
+
+.imageWrapperLogo {
+    width:36%;
+/*    text-align:justify;*/
+    page-break-inside:avoid;
+}
+.imageWrapperLogo img {
+    display:inline-block;
+    width:36%;
+    margin:0 auto;
+}

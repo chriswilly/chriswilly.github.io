@@ -211,12 +211,12 @@ a:link, a:visited {
 }
 
 .imageWrapperLogoWide {
-    width:36%;
+    width:32%;
 /*    text-align:justify;*/
     page-break-inside:avoid;
 }
 .imageWrapperLogoWide img {
     display:inline-block;
-    width:36%;
+    width:32%;
     margin:0 auto;
 }

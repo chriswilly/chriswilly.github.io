@@ -189,24 +189,25 @@ a:link, a:visited {
 }
 
 .imageWrapperMid {
-    width:30%;
+    width:20%;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperMid img {
     display:inline-block;
-    width:30%;
+    width:20%;
     margin:0 auto;
 }
 
 .imageWrapperLogo {
-    width:20%;
+    width:16%;
+    display:inline-block;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {
-    display:block;
-    width:20%;
+    display:inline-block;
+    width:16%;
     margin:0 auto;
 }
 
@@ -227,7 +228,7 @@ a:link, a:visited {
     page-break-inside:avoid;
 }
 .imageWrapperGrid img {
-    display:grid;
+    display:inline-block;
     width:70%;
     margin:0 auto;
 }

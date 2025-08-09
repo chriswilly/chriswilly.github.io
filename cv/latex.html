@@ -109,11 +109,17 @@
             &#8226;<a href="/">home</a> &#8226;<a href="/cv">cv</a> &#8226;<a href="/cv/latex.html">tex</a>
         </h3>
     </nav>
-    <br>
-    <h2>&#x263a;</h2>
-    <br>
-    <h3>&copy; 2022-2025</h3>
-  </body>
-
+    <div>
+        <br>
+        <h2>&#x263a;</h2>
+        <br>
+        <h3>&copy; 2022-<span id="year"></span></h3>
+        <br>
+    </div>
+</body>
 </html>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
 

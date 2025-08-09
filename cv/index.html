@@ -28,9 +28,11 @@
         <br>
         <h2>&#x263a;</h2>
         <br>
-        <h3>&copy; 2022-2025</h3>
+        <h3>&copy; 2022-<span id="year"></span></h3>
         <br>
     </div>
-  </body>
-
+</body>
 </html>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>

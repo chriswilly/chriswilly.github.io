@@ -10,7 +10,6 @@ __pycache__/
 *.so
 
 *.log
-local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
@@ -25,4 +24,6 @@ venv.bak/
 
 # Sub dirs
 test/
-
+.tmp/
+.temp/
+.test/

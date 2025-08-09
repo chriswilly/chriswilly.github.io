@@ -32,8 +32,9 @@
         <h3>&copy; 2022-<span id="year"></span></h3>
         <br>
     </div>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
-<script>
-    document.getElementById("year").innerHTML = new Date().getFullYear();
-</script>
+

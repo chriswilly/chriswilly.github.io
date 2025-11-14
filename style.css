@@ -200,14 +200,14 @@ a:link, a:visited {
 }
 
 .imageWrapperLogo {
-    width:16%;
+    width:8%;
     display:inline-block;
     text-align:center;
     page-break-inside:avoid;
 }
 .imageWrapperLogo img {
     display:inline-block;
-    width:16%;
+    width:8%;
     margin:0 auto;
 }
 
